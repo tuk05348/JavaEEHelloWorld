@@ -6,10 +6,14 @@
 </head>
 <body>
 <br/>
-<form action=welcomePage.jsp method=POST>
-    <label for="name">Enter your name:</label>
-    <input type = "text" name="name" id="name"/>
+<form action=login.jsp method=POST>
+    <label for="username">Enter your username:</label>
+    <input type = "text" name="name" id="username"/>
+    <label for="password">Enter your password:</label>
+    <br>
+    <input type = "password" name="name" id="password"/>
     <input type = "submit" value = "Submit" />
+    <br>
 </form>
 </body>
 </html>
