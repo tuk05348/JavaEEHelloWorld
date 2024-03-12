@@ -8,12 +8,11 @@
 <br/>
 <form action=login.jsp method=POST>
     <label for="username">Enter your username:</label>
-    <input type = "text" name="name" id="username"/>
+    <input type = "text" name="username" id="username"/>
+    <br>
     <label for="password">Enter your password:</label>
-    <br>
-    <input type = "password" name="name" id="password"/>
+    <input type = "password" name="password" id="password"/>
     <input type = "submit" value = "Submit" />
-    <br>
 </form>
 </body>
 </html>
